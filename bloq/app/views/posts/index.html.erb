@@ -1,0 +1,21 @@
+<div class="">
+    <div class="navbar-fixed-top">
+    <%= link_to 'b', root_path, class: 'btn btn-success icon mover1' %>
+    </div>
+    <% @posts.each do |post| %>
+      <div class="show-post">
+        <div class="title">
+        <%=link_to post.title, post, class: "title" %>
+        </div>
+        <div class="subtitle">
+        <%= post.sub %>
+        </div>
+        <!--<%= link_to 'Show', post %>
+        <%= link_to 'Edit', edit_post_path(post) %>
+        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %> -->
+      </div>
+    <% end %>
+</div>
+<div class="actions navbar-fixed-bottom create-button">
+<%= link_to 'p', new_post_path, class: "btn btn-lg btn-info mover3" %>
+</div>

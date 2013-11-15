@@ -1,0 +1,34 @@
+<% if user_signed_in? %>
+<p>
+	<%= link_to "leave", destroy_user_session_path, class: "btn btn-lg btn-success icon pull-right" %>
+</p>
+<p>
+	<%= link_to "new post", new_post_path, class: "btn btn-lg btn-success icon pull-right" %>
+</p>
+<% else %>
+<p>
+	<%= link_to "join", new_user_registration_path, class: "btn btn-lg btn-success icon pull-right" %>
+</p>
+<% end %>
+<div class="jumbotron text-center">
+	<div>
+		<h1>
+			bloq
+		</h1>
+		<p>
+			a blog interface
+		</p>
+		<p id="home-button">
+			<%= link_to "see", posts_path, class: "btn btn-lg btn-success" %>
+		</p>
+	</div>
+</div>
+
+<style>
+body {
+   background-image: url('http://i1352.photobucket.com/albums/q655/eanplatter/hegyek1_zpsd88f6400.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+</style>
