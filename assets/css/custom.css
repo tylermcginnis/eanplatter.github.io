@@ -1,0 +1,34 @@
+.post {
+	width: 57%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.heading {
+	padding-bottom: 20px;
+}
+
+body {
+	background-color: #EEEED8;
+	font-family: 'Montserrat', sans-serif;
+	color: #DC4E4E;
+}
+
+.jumbotron {
+	background-image: url(http://i1352.photobucket.com/albums/q655/eanplatter/24265c5f-4ce8-4101-9ce6-82e748d572a2_zpsf0283f35.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.jumbotron h1 {
+	color: #EEEED8;
+}
+
+.jumbotron h2 {
+	color: #EEEED8;
+}
+
+
