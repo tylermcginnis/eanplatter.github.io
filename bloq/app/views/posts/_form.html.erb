@@ -12,13 +12,13 @@
   <% end %>
 <div class="form-body col-md-offset-2">
   <div class="field">
-    <%= f.text_field :title, placeholder: "your title here", class: "post-field post-title", onfocus: "this.placeholder = ''", onblur: "this.placeholder = 'your title here'", :cols => 1000%>
+    <%= f.text_field :title, placeholder: "title", class: "post-field post-title", onfocus: "this.placeholder = ''", onblur: "this.placeholder = 'title'", :cols => 1000%>
   </div>
   <div class="field">
-    <%= f.text_field :sub, placeholder: "your subtitle here", class: "post-field", onfocus: "this.placeholder = ''", onblur: "this.placeholder= 'your subtitle here'", :cols => 100  %>
+    <%= f.text_field :sub, placeholder: "subtitle", class: "post-field", onfocus: "this.placeholder = ''", onblur: "this.placeholder= 'subtitle'", :cols => 100  %>
   </div>
   <div class="field">
-    <%= f.text_area :body, placeholder: "your text here", class: "post-field post-body", onfocus: "this.placeholder = ''", onblur: "this.placeholder = 'your text here'", :cols => 100, :rows => 10 %>
+    <%= f.text_area :body, placeholder: "text", class: "post-field post-body", onfocus: "this.placeholder = ''", onblur: "this.placeholder = 'text'", :cols => 100, :rows => 10 %>
   </div>
       <div class="actions navbar-fixed-bottom create-button">
       <%= f.submit "p", class: "btn btn-lg btn-info mover3" %>

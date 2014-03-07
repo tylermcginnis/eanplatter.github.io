@@ -2,3 +2,4 @@
 <p>an open source blog platform</p>
 
 <p>Rails 4</p>
+<p>SQLite3</p>
