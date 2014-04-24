@@ -1,47 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>SOTD</title>
-    <!-- Path to Framework7 Library CSS-->
-    <link rel="stylesheet" href="css/framework7.css">
-    <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="css/my-app.css">
-    <link rel="apple-touch-icon-precomposed" href="http://i1352.photobucket.com/albums/q655/eanplatter/ScreenShot2014-04-22at84025AM_zps64f9efe2.png">
-
-  </head>
-  <body>
-    <div class="logo">
-      <img src="http://i1352.photobucket.com/albums/q655/eanplatter/ScreenShot2014-04-22at83941AM_zpsd61fba3c.png">
-    </div>
-  <div class="interface jumbotron">
-      <audio id="player" >
-        <source src="clemenceau.mp3"/>
-      </audio>
-      <span id="songTime"></span> <br/>
-      <input id="sliderTime" type="range" min="0" value="0"> <br/>
-      <button id="btnPlay">
-        Play
-      </button>
-      <button id="btnPause">
-        Pause
-      </button>
-      <button id="btnStop">
-        Reset
-      </button> <br/>
-      <button id="btnVolUp">Volume +</button>
-      <button id="btnVolDown">Volume -</button> <br/>
-    </div>
-
-
-
-
-    <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="js/framework7.js"></script>
-    <!-- Path to your app js-->
-    <script type="text/javascript" src="js/my-app.js"></script>
-  </body>
+<head>
+	<title>ean</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="intro-content" style="background-image:url('backdrop.jpg'); background-attachment:fixed; background-repeat:no-repeat; backround-size:cover;">
+		<h1 style="color:#fff;">
+			EAN PLATTER
+		</h1>
+	</div>
+	<section class="panel panel-0">
+		<div class="introduction">
+			<h1>
+				WHO I AM
+			</h1>
+			<p>
+				My name is Ean and I am a web developer. I began working in the web almost 2 years ago. At that time I had just begun taking computer science classes, and became enthralled with software development. I loved being able to create clever and entertaining programs, but something was missing.
+			</p>
+			<p>
+				I started to notice software more, and the more I noticed, the more I realized where software should be; online. Web development became an obsession, I loved the ever changing landscape, and the new opportunities that rose up from building software online.
+			</p>
+		</div>
+	</section>
+	<hr>
+	<section>
+		<div class="panel panel-1" style="background: #fff;">
+			<div class="skills">
+				<h1>PRIMARY TECHNOLOGIES / TOOLS</h1>
+				<div class="skill">
+					<img src="html5.png">
+				</div>
+				<div class="skill">
+					<img src="css.png">
+				</div>
+				<div class="skill">
+					<img src="jQuery.gif">
+				</div>
+				<div class="skill">
+					<img src="ruby.png">
+				</div> <br/>
+				<div class="skill">
+					<img src="JavaScript-logo.png">
+				</div>
+				<div class="skill">
+					<img src="bootstrap.png">
+				</div>
+				<div class="skill">
+					<img src="uxui.png">
+				</div>
+				<div class="skill">
+					<img src="mobile.png">
+				</div>
+			</div>
+			<div class="skill-words">
+				<h1>Implementation</h1>
+				<p>While my skill level in each list above varies, the underlining meaning here is that I am constantly learning. A minimum of 20 hours a week are dedicated to bettering my craft, especially on the fundamentals. For instance, while I am skilled with utilizing Twitter Bootstrap's responsive frameowrk, I spend more time learning how to build responsiveness from the ground up. While I can get deep into manipulating a website with jQuery, I frequently attempt to discover how I can do similar activity with vanilla JavaScript.</p>
+			</div>
+		</div>
+	</section>
+	<!-- PROFESSIONAL REVIEWS -->
+	<section class="reviews">
+		<div class="reviews-heading">
+			<h1>SOME NICE WORDS FROM PEOPLE I'VE WORKED WITH</h1>
+		</div>
+		<section class="review">
+			<div class="review-text">
+				<h1>"An asset to our organization"</h1>
+				<p>"Ean's work at Auction Frogs has been invaluable. We went through a lot of upheaval right as he joined the team and he has held us steady through these rocky times."</p>
+				<p>~Kristi Saucerman, CEO Auction Frogs</p>
+			</div>
+			<div class="review-image">
+				<img src="kristi.jpg">
+			</div>
+		</section>
+		<section class="review" style="background:#FA5858;">
+			<div class="review-text">
+				<h1>"Problem Conqueror"</h1>
+				<p>"I have known Ean on a professional level for some time now, and have hired him to build my MVP. He is one of the most intuitive problem solvers I have ever met."</p>
+				<p>~George Seybold, CEO Loop</p>
+			</div>
+			<div class="review-image">
+				<img src="george.jpg">
+			</div>
+		</section>
+		<section class="review" style="background:#084B8A;">
+			<div class="review-text">
+				<h1>"Top Notch"</h1>
+				<p>"Ean's professional experience at such a young age was continuously impressive. As a consultant, we knew his number one priority was taking care of our needs."</p>
+				<p>~Rod Puzey, CFO Zenware Inc.</p>
+			</div>
+			<div class="review-image">
+				<img src="rod.jpg">
+			</div>
+		</section>
+		<section class="review" style="background:#04B45F;">
+			<div class="review-text">
+				<h1>"Brings up the whole teams value."</h1>
+				<p>"Ean wrote clean, well documented, code that created a positive working atmosphere. His problem solving capabilities and openess to share created an environment that fostered scalable growth."</p>
+				<p>~Dug Teeney, CTO Loop</p>
+			</div>
+			<div class="review-image">
+				<img src="dug.jpg">
+			</div>
+		</section>
+	</section>
+</body>
 </html>

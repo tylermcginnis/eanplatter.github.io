@@ -1,0 +1,123 @@
+/*////////////////////////   MISC.   //////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+
+body {
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+.intro-content {
+	width: 80%;
+	padding: 10%;
+	text-align: center;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+/*////////////////////////   PANELS   /////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+.panel {
+	padding: 10px;
+}
+
+.panel h1 {
+	text-align: center;
+}
+
+.panel-1 {
+	color: #333;
+}
+
+.skill {
+	color:#333;
+	background: #fff;
+	height: 40px;
+	width: 40px;
+	padding: 20px;
+	text-align: center;
+	display: inline-block;
+	margin: 23px 23px 23px 110px;
+}
+
+
+.skill img {
+	max-height: 100px;
+}
+
+.skills {
+	margin-left: 8%;
+}
+
+.skills h1 {
+	margin-left: -100px;
+}
+
+.skill-words {
+	margin: 40px;
+}
+
+.skill-words p {
+	font-size: 20px;
+}
+/*////////////////////////   INTRO   //////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+.panel-0 {
+	color: #333;
+	margin: 40px;
+}
+
+.panel-0 p {
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+/*////////////////////////   REVIEWS   ////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////*/
+
+.review {
+	background: #333;
+	padding: 10px;
+	color:#fff;
+}
+
+.review-text {
+	width: 60%;
+	display: inline-block;
+	margin-top: 10px;
+
+}
+
+.review-image img {
+	height: 170px;
+	display: inline-block;
+	margin-left: 85%;
+	margin-top: -150px;
+	margin-bottom: 15px;
+	border-radius: 100%;
+}
+
+.reviews-heading {
+	background: #000;
+	padding:10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
