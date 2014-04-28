@@ -1,8 +1,3 @@
-/*////////////////////////   MISC.   //////////////////////////*/
-/*////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////*/
-
-
 body {
 	font-family: 'Montserrat', 'sans-serif';
 	margin:0;
@@ -21,16 +16,12 @@ body {
 	color: #333;
 }
 
-/*////////////////////////   PANELS   /////////////////////////*/
-/*////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////*/
-
 .panel {
 	padding: 10px;
 }
 
 .panel h1 {
-	text-align: center;
+	text-align: ;
 }
 
 .panel-1 {
@@ -68,9 +59,6 @@ body {
 .skill-words p {
 	font-size: 20px;
 }
-/*////////////////////////   INTRO   //////////////////////////*/
-/*////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////*/
 
 .panel-0 {
 	color: #333;
@@ -80,16 +68,6 @@ body {
 .panel-0 p {
 	font-size: 20px;
 }
-
-
-
-
-
-
-
-/*////////////////////////   REVIEWS   ////////////////////////*/
-/*////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////*/
 
 .review {
 	background: #333;
@@ -119,10 +97,6 @@ body {
 	color: #fff;
 	text-align: center;
 }
-
-/*////////////////////////   PORTFOLIO   //////////////////////*/
-/*////////////////////////////////////////////////////////////*/
-/*///////////////////////////////////////////////////////////*/
 
 .portfolio {
 	padding:20px;
@@ -170,6 +144,31 @@ body {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
+    background-color: rgba(255,255,255,.2);
+}
+
+.navbar-port {
+    background-color: #333 !important;
+    height: 50px !important;
+}
+
+.navbar-port a {
+    color: #fff;
+    margin-top: -18px;
+
+}
+
+.navbar-port .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-port .nav li a:hover,
+.navbar-port .nav li a:focus,
+.navbar-port .nav li.active {
+    outline: 0;
+    color: #fff;
     background-color: rgba(255,255,255,.2);
 }
 
