@@ -4,11 +4,12 @@ body {
 }
 
 .intro-content {
-	width: 100%;
+	width: auto;
 	margin-top: -1.5em;
 	text-align: center;
 	height: 800px;
 	padding: 19em;
+    background-size:auto !important;
 	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
