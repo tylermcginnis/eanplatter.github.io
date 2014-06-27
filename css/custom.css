@@ -1,0 +1,10 @@
+body {
+	font-family: 'Montserrat', 'sans-serif';
+	margin:0;
+    color: #585858 !important;
+}
+
+.jumbotron {
+    background-color: #fff !important;
+    color: #585858 !important;
+}
