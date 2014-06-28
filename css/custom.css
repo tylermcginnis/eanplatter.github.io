@@ -204,7 +204,9 @@ a {
 		display: none;
 	}
 
-	.over-lord {
+	.logo {
+		left: 0;
+		position: relative;
 		margin-left: auto;
 		margin-right: auto;
 	}
