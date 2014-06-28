@@ -5,6 +5,13 @@ body {
 	color: #424242;
 	background: url(http://payload93.cargocollective.com/1/8/282864/4164576/DSC_0474-copy_o.jpg) fixed;
 }
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+
+
 
 .underline {
 	border-bottom: 1px solid #d6d6d6;
@@ -101,7 +108,7 @@ body {
 }
 
 .over-lord:hover {
-	background: #424242;
+	background: transparent;
 }
 
 .under-lord:hover {
@@ -109,7 +116,7 @@ body {
 }
 
 .under-lord:hover p {
-	color: #424242;
+	color: #D6D6D6;
 }
 
 .main-content {
@@ -135,15 +142,64 @@ body {
 	background: #424242;
 	color: #fff;
 	border: 1px solid #424242;
+	transition:0.5s;
 }
 
 .btn:hover {
 	background: transparent;
-	border: 1px solid #424242;
-	color: #424242;
+	border: 1px solid #ED4C44;
+	color: #ED4C44;
 }
 
 .btn-deck {
 	padding: 1em;
 }
 
+.social-deck {
+	width: 100%;
+	font-size: 2em;
+
+}
+
+.social-link {
+	display: inline-block;
+}
+
+@media (max-width: 900px) {
+	.btn {
+		display: block;
+		margin: 0.5em auto;
+	}
+
+	.col6 {
+		width: 0%;
+	}
+
+	.col1 {
+		width: 0%;
+	}
+
+	.col5 {
+		width: 80%;
+		margin: auto 10%;
+	}
+
+	.main-content {
+		padding: 0 1em;
+		margin-top: 7em;
+	}
+
+	.col3 {
+		width: 100%;
+	}
+
+	.col9 {
+		width: 0%;
+	}
+
+	.over-lord {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
