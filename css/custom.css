@@ -169,11 +169,11 @@ a {
 	}
 
 	.col6 {
-		width: 0%;
+		display: none;
 	}
 
 	.col1 {
-		width: 0%;
+		display: none;
 	}
 
 	.col5 {
@@ -191,7 +191,7 @@ a {
 	}
 
 	.col9 {
-		width: 0%;
+		display: none;
 	}
 
 	.over-lord {
