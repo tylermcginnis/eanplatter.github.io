@@ -155,11 +155,21 @@ a {
 .social-deck {
 	width: 100%;
 	font-size: 2em;
+}
 
+.social-deck img {
+	max-height: 4em;
 }
 
 .social-link {
 	display: inline-block;
+}
+
+.bottom {
+	clear: both;
+	width: 100%;
+	height: 100em;
+	background:#d6d6d6;
 }
 
 @media (max-width: 900px) {
