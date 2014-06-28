@@ -74,46 +74,37 @@ a {
 	width: 100%;
 }
 
-.over-lord {
-	margin: 50px;
-	height: 100px;
-	width: 100px;
-	background:#D6D6D6;
-	border-radius: 100%;
-	transition: 0.7s;
 
 
-}
-
-.under-lord {
+.logo {
 	position: relative;
-	left: 1.26em;
-	top: 1.26em;
+	top: 53px;
+	left: 40px;
 	height: 75px;
 	width: 75px;
+	border: 10px solid #D6D6D6;
 	background-color: #fff;
 	border-radius: 100%;
 	transition: 0.7s;
 
 }
 
-.under-lord p {
+.logo p {
 	position: relative;
-	top: 18px;
+	top: -12px;
 	font-size: 3em;
-	color: #424242;
+	color: #209FFF;
 	transition: 0.7s;
 }
 
-.over-lord:hover {
-	background: transparent;
-}
 
-.under-lord:hover {
+
+.logo:hover {
 	background: #209FFF;
+	border: 10px solid transparent
 }
 
-.under-lord:hover p {
+.logo:hover p {
 	color: #D6D6D6;
 }
 
