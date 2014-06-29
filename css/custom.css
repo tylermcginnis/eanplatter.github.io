@@ -27,10 +27,12 @@ a {
 
 .col1 {
 	width: 8.33%;
+	height: auto;
 }
 
 .col2 {
 	width: 16.66%;
+	height: auto;
 }
 
 .col3 {
@@ -39,6 +41,7 @@ a {
 
 .col4 {
 	width: 33.33%;
+	height: auto;
 }
 
 .col5 {
@@ -52,10 +55,12 @@ a {
 
 .col7 {
 	width: 58.33%;
+	height: auto;
 }
 
 .col8 {
 	width: 66.66%;
+	height: auto;
 }
 
 .col9 {
@@ -64,14 +69,17 @@ a {
 
 .col10 {
 	width: 83.33%;
+	height: auto;
 }
 
 .col11 {
 	width: 91.66%;
+	height: auto;
 }
 
 .col12 {
 	width: 100%;
+	height: auto;
 }
 
 
@@ -109,9 +117,9 @@ a {
 }
 
 .main-content {
-	margin: 2em 0 15em 0;
+	margin: 12em 0 15em 0;
 	padding:0 2em;
-	background: rgba(0, 0, 0, 0.55);
+	background: rgba(0, 0, 0, 0.75);
 
 }
 
@@ -122,6 +130,49 @@ a {
 .main-content p {
 	text-align: justify;
 	font-size: 2em;
+}
+
+.resume-content {
+	width: 90%;
+	margin: 12em 5%;
+	padding: 0 2em;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.resume-content h1 {
+	font-size: 4em;
+}
+
+.resume-content p {
+	text-align: justify;
+	font-size: 2em;
+}
+
+.resume h1 {
+	text-align: left;
+}
+
+.resume h3 {
+	text-align: left;
+	font-size: 2em;
+}
+
+.job {
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.even {
+	color: #D6D6D6;
+}
+
+.active {
+	font-size: 3em;
+	display: inline-block;
+	padding: 1em 1.5em;
+	background: transparent;
+	color: #fff;
+	border: 0.1em solid #424242;
+	transition:0.5s;
 }
 
 .btn {
@@ -151,7 +202,7 @@ a {
 
 .social-deck img {
 	max-height: 4em;
-	padding-bottom: 2em
+	padding: 2em 0;
 }
 
 .bottom {
@@ -210,5 +261,18 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.active {
+		font-size: 2em;
+		display: inline-block;
+		padding: 1em 1.5em;
+		background: transparent;
+		color: #fff;
+		border: 0.1em solid #424242;
+		transition:0.5s;
+		display: block;
+		margin: 0.5em auto;
+
+}
 
 }
