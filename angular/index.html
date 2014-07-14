@@ -3,23 +3,23 @@
 <head>
 	<title>Spare Change</title>
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body ng-app="myApp">
 
 <div class="jumbotron text-center">
 	<h1>SPARE CHANGE</h1>
-	<h3>Calculate your extra minutes</h3>
+	<h3 class="bottom">Calculate your extra minutes</h3>
 	<div ng-controller="DoubleController">
 		<form class="form-inline" role="form">
 			<div class="form-group">
-				<input ng-model="min" placeholder="Extra Minutes" class="form-control">
-	  			<input ng-model="rate" placeholder="Rate" class="form-control"> 	
-	  			<span class="answer">
-	  			${{ divider(min, rate) }}
-	  			</span>
+	  			<input ng-model="rate" placeholder="Hourly Rate" class="form-control"> 					
+				<input ng-model="min" placeholder="Extra Minutes" class="form-control"> <br>
 			</div>
 		</form>
+		<div class="answer">
+	  		<h1>{{ divider(min, rate) }}</h1>
+	  	</div>
 	</div>
 </div>
 
