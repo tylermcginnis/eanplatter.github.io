@@ -1,6 +1,6 @@
-var myApp = angular.module('myApp',[]);
+var spareChange = angular.module('spareChange',[]);
 
-myApp.controller('DoubleController', ['$scope', function($scope) {
+spareChange.controller('CalculatorController', ['$scope', function($scope) {
   	$scope.divider = function(value, rate) { 
   		if(value && rate) {
   			var total = value * (100 / 60) * rate / 100;
