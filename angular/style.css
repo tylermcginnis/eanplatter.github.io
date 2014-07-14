@@ -1,12 +1,13 @@
 body {
-	background: #CEECF5;
+	background: url(https://s3.amazonaws.com/ooomf-com-files/IbJK5etSN6dH6jAF4U0U_DSC_0280-1.jpg);
+	background-size: cover;
 }
 
 .jumbotron {
 	margin: 20px;
 	border-radius: 4px;
-	background: rgba(0, 0, 0, 0.1);
-	color: #424242;
+	background: rgba(0, 0, 0, 0.8);
+	color: #d6d6d6;
 }
 
 .bottom {
